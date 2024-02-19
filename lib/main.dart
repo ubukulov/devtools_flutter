@@ -32,6 +32,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<Student> students = [
+    /*Student(name: 'Саттаров Тимур', averageScore: 85.0, photo: 'https://paywin.kz/images/1.jpg'),
+    Student(name: 'Мурашева Жулдыз', averageScore: 92.0, photo: 'https://paywin.kz/images/2.jpg', isActive: true),
+    Student(name: 'Турешов Ержан', averageScore: 78.0, photo: 'https://paywin.kz/images/3.jpg'),
+    Student(name: 'Байзакова Айжан', averageScore: 88.0, photo: 'https://paywin.kz/images/4.jpg', isActive: true),*/
     Student(name: 'Саттаров Тимур', averageScore: 85.0, photo: 'https://i1.poltava.to/news/63/6201/photo.jpg'),
     Student(name: 'Мурашева Жулдыз', averageScore: 92.0, photo: 'https://img.freepik.com/premium-psd/portrait-of-student-holding-laptop-with-mock-up_23-2148513605.jpg', isActive: true),
     Student(name: 'Турешов Ержан', averageScore: 78.0, photo: 'https://i1.poltava.to/news/63/6201/content/stud.jpg'),
